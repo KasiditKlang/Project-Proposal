@@ -9,6 +9,7 @@ void main() {
   int? length, upperLength, specialLength;
 
   try {
+    // something
     stdout.write('Enter password length: ');
     length = int.parse(input.readLineSync()!);
 
